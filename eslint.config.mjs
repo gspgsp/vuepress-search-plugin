@@ -9,9 +9,6 @@ export default [
       "**/node_modules",
       "tests/fixtures/**/*.json",
       "!playground/docs/.vuepress",
-      "playground/docs/.vuepress/.temp",
-      "playground/docs/.vuepress/.cache",
-      "playground/docs/.vuepress/dist",
     ],
   },
   {
@@ -71,16 +68,6 @@ export default [
     rules: {
       "no-console": "off",
       "@typescript-eslint/no-misused-promises": "off",
-    },
-  },
-  {
-    files: ["playground/**/*.js"],
-
-    rules: {
-      "n/no-missing-import": "off",
-      "n/no-unpublished-import": "off",
-      "n/no-missing-require": "off",
-      "n/no-unpublished-require": "off",
     },
   },
 ];

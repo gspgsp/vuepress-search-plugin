@@ -29,7 +29,7 @@ function fullTextSearchPluginFunction(
   options: FullTextSearchPluginOptions | App = {},
 ): PluginObject {
   return {
-    name: "vuepress-plugin-full-text-search2",
+    name: "vuepress-search-plugin",
 
     define: {
       __SEARCH_LOCALES__: ("locales" in options ? options?.locales : {}) ?? {},
