@@ -1,6 +1,6 @@
 {
   "name": "vuepress-serach-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a plugin for vuepress2 search.",
   "files": [
     "lib"
